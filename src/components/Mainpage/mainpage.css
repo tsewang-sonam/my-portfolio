@@ -1,0 +1,63 @@
+#intro {
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.mainImage {
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  z-index: -1;
+  object-fit: cover;
+  margin-right: 3rem;
+  height: 85vh;
+  width: 70vh;
+}
+
+.introTextPart {
+  height: 100vh;
+  width: 100vh;
+  padding: 8rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.introPara {
+  font-size: 1rem;
+  font-weight: 400;
+  max-width: 50rem;
+}
+
+.myIntro {
+  font-size: 2.2rem;
+  font-weight: 530;
+  letter-spacing: 1px;
+}
+
+.welcomeTxt {
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.myName {
+  color: rgb(129, 16, 194);
+}
+
+.mainButton {
+  background: rgb(252, 252, 252);
+  color: #000;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  border-radius: 2rem;
+}

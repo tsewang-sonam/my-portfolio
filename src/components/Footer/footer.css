@@ -1,0 +1,10 @@
+.foot {
+  width: 100vw;
+  height: 3rem;
+  background: rgb(265, 240, 258);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  font-weight: 400;
+}

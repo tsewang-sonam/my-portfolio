@@ -1,0 +1,60 @@
+#myEducation {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.eduTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 0.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.eduDesc {
+  font-size: 1rem;
+  font-weight: 400;
+  max-width: 60rem;
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+}
+
+.educationList {
+  margin: 1rem;
+  width: 100vw;
+  max-width: 80%;
+  text-align: left;
+  margin-bottom: 8rem;
+}
+
+.certificationList {
+  display: flex;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background: rgb(245, 241, 248);
+  margin-bottom: 1rem;
+}
+
+.Certificates {
+  object-fit: cover;
+  height: 4rem;
+  width: 4rem;
+  margin-right: 2rem;
+}
+
+.certificationListDesc {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 720px) {
+  .certificationListDesc > p {
+    font-size: 2vw;
+  }
+}

@@ -1,0 +1,96 @@
+#contactMe {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.textForm {
+  margin: 1rem;
+  width: 80vw;
+  max-width: 80%;
+  background: #cbbbd8;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contactBox {
+  display: flex;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.1rem;
+}
+
+input.smallBox:hover {
+  border-color: rgb(135, 234, 252);
+}
+
+.lableTxt {
+  width: 9vw;
+}
+
+input-container {
+  display: flex;
+  align-items: center;
+}
+
+input.smallBox {
+  padding: 0.5rem;
+  border: 1px solid rgb(250, 248, 248);
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-right: 10px;
+  margin-top: -0.3rem;
+  width: 25vw;
+  color: white;
+}
+
+.bigBox {
+  position: sticky;
+  top: 10px;
+  padding: 10px;
+  border: 1px solid rgb(250, 248, 248);
+  color: white;
+}
+
+.submitButton {
+  background-color: azure;
+  color: rgb(9, 10, 10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1.7rem;
+  border-radius: 2rem;
+  font-weight: 700;
+}
+
+.submitButton:hover {
+  background-color: rgb(135, 209, 252);
+}
+
+.contactTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgb(250, 248, 248);
+  margin-bottom: 1rem;
+}
+input::placeholder,
+textarea::placeholder {
+  font-size: 1rem;
+  color: rgb(250, 248, 248);
+}
+
+.contactDesc {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: rgb(106, 112, 117);
+  margin-bottom: 1rem;
+}
